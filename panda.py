@@ -12,4 +12,5 @@ data = {
     "duration": [50, 40, 45]
 }
 frame = pd.DataFrame(data)
-print(frame[0])
+# print(frame.loc[[0,1]])
+print(frame.loc[['calories']])
